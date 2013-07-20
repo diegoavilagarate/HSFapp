@@ -3,20 +3,28 @@ Ext.define('HSFapp.view.Media', {
     xtype: 'mediapanel',
 
     config: {
-        title: 'Media',
-        store: 'Videos'
+        title: 'About'
     },
 
-    initialize: function() {
-    	this.callParent();
+    
     	items: [
-    		{
-                        docked: 'top',
-                        xtype: 'titlebar',
-                        title: 'Speakers'
-            }
+    		        {
+            title: 'Overview',
+            xtype: 'htmlPage',
+            url: 'data/about.html'
+        },
+        {
+            title: 'Sponsors',
+            xtype: 'htmlPage',
+            url: 'data/sponsors.html'
+        },
+        {
+            title: 'Credits',
+            xtype: 'htmlPage',
+            url: 'data/credits.html'
+        }
     	]
-    }
+    
 
 
 });

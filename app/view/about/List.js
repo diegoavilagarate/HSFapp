@@ -4,7 +4,7 @@ Ext.define('HSFapp.view.about.List', {
 	xtype: 'aboutList',
 
 	config: {
-		title: 'About',
+		title: 'Media',
 		ui: 'round',
 		itemTpl: [ '{title}' ]
 	},

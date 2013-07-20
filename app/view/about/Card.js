@@ -6,7 +6,7 @@ Ext.define('HSFapp.view.about.Card', {
 	config: {
 
 		title: 'About',
-        iconCls: 'time',
+        iconCls: 'info',
 
         autoDestroy: false,
 

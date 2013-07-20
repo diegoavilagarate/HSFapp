@@ -20,9 +20,16 @@ Ext.application({
 
     aboutPages: [
         {
+
             title: 'Overview',
             xtype: 'htmlPage',
             url: 'data/about.html'
+        },
+        {
+            title: 'Videos',
+            xtype: 'videoList',
+            playlistId: '2737D508F656CCF8',
+            hideText: 'HSF Conference '
         },
         {
             title: 'Sponsors',
@@ -33,13 +40,8 @@ Ext.application({
             title: 'Credits',
             xtype: 'htmlPage',
             url: 'data/credits.html'
-        },
-        {
-            title: 'Videos',
-            xtype: 'videoList',
-            playlistId: '2737D508F656CCF8',
-            hideText: 'HSF Conference '
         }
+        
     ],
 
     // App namespace
