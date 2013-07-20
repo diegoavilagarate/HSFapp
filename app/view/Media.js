@@ -7,24 +7,4 @@ Ext.define('HSFapp.view.Media', {
     },
 
     
-    	items: [
-    		        {
-            title: 'Overview',
-            xtype: 'htmlPage',
-            url: 'data/about.html'
-        },
-        {
-            title: 'Sponsors',
-            xtype: 'htmlPage',
-            url: 'data/sponsors.html'
-        },
-        {
-            title: 'Credits',
-            xtype: 'htmlPage',
-            url: 'data/credits.html'
-        }
-    	]
-    
-
-
 });

@@ -41,7 +41,7 @@ Ext.define('HSFapp.view.session.Detail', {
 						},
 						handler: function() 
 						{
-							location.href='http://m.google.com';
+							location.href='https://accounts.google.com/Login?service=profiles';
 						} 
 						},
 
@@ -54,7 +54,7 @@ Ext.define('HSFapp.view.session.Detail', {
 						iconMask: true,
 						handler: function() 
 						{
-							location.href='http://m.google.com';
+							location.href='https://drive.google.com/‎';
 						} 
 					},
 					{
