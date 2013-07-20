@@ -11,5 +11,8 @@ css_path = File.join(dir, "..", "css")
 # Require any additional compass plugins here.
 fonts_path = File.join(dir, '../../../../resources/themes/fonts/')
 images_dir = File.join(dir, "..", "images")
-output_style = :compressed
+output_style = :expanded #was compressed
 environment = :production
+
+
+# http://www.netmagazine.com/tutorials/code-smarter-css-sass
