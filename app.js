@@ -11,12 +11,12 @@ Ext.application({
     // Change the values below to re-configure the app for a different conference.
 
     title:   'HSF Conference',
-    dataUrl: 'http://en.oreilly.com/web2010/public/mobile_app/all',
+    dataUrl: 'http://young-dawn-6579.herokuapp.com/conferences/1.json',
 
     twitterSearch: '#HSFNews',
 
-    mapCenter: [37.788539, -122.401643],
-    mapText: 'The Palace Hotel<br /><small>2 New Montgomery Street<br />San Francisco, CA 94105<br />(415) 512-1111</small>',
+    mapCenter: [33.858996, -118.303175],
+    mapText: 'Legen<br /><small> wait for it ... <br /> dary <br /> asdasd </small>',
 
     aboutPages: [
         {

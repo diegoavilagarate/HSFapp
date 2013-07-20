@@ -25,6 +25,51 @@ Ext.define('HSFapp.view.session.Detail', {
 				xtype: 'speakers',
 				store: 'SessionSpeakers'
 
+			},
+			{
+				dockedItems:[
+					{
+						docked: 'left',
+						xtype: 'button', 
+						text: 'Register',
+						iconCls: 'download', 
+						layout: 'fit',
+						iconMask: true,
+						layout: {
+							type: 'vbox',
+							pack: 'justify'
+						},
+						handler: function() 
+						{
+							location.href='http://m.google.com';
+						} 
+						},
+
+						{
+						docked: 'left', 
+						layout: 'fit',
+						xtype: 'button', 
+						text: 'Related documents',
+						iconCls: 'bookmarks', 
+						iconMask: true,
+						handler: function() 
+						{
+							location.href='http://m.google.com';
+						} 
+					},
+					{
+						docked: 'left', 
+						layout: 'fit',
+						xtype: 'button', 
+						text: 'Share',
+						iconCls: 'bookmarks', 
+						iconMask: true,
+						handler: function() 
+						{
+							location.href='http://m.google.com';
+						} 
+					}
+				]
 			}
 		]
 

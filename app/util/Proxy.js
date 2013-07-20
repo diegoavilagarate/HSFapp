@@ -13,7 +13,7 @@ Ext.define('HSFapp.util.Proxy', {
 		    sessionIds, proposalModel, speakerModel, speakerSessions = {}, sessionId, speaker, sessionDays = {};
 
 		Ext.data.JsonP.request({
-		    url: url,
+		    url: 'http://young-dawn-6579.herokuapp.com/conferences/1.js',
 		    callbackName: 'feedCb',
 
 		    success: function(data) {
