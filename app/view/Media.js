@@ -3,7 +3,8 @@ Ext.define('HSFapp.view.Media', {
     xtype: 'mediapanel',
 
     config: {
-        title: 'About'
+        title: 'Media',
+        iconCls: 'photos2'
     },
 
     

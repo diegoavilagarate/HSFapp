@@ -14,17 +14,15 @@ Ext.define('HSFapp.view.Main', {
 		},
 
 		items: [
-			{ xtype: 'home', iconCls: 'home'},
-			{ xclass: 'HSFapp.view.session.Card' },
-			{ xclass: 'HSFapp.view.speaker.Card' },
-			{ xclass: 'HSFapp.view.Tweets'   },
-<<<<<<< HEAD
-			{ xtype: 'mediapanel', iconCls: 'photos2'},
-=======
->>>>>>> 7a94a50d22187b80dc9d86f3c63369de94a6aabb
-			{ xclass: 'HSFapp.view.Location' },
-			{ xclass: 'HSFapp.view.about.Card' },
-			{ xtype: 'Resources', iconCls: 'doc_drawer' }
+			{ xtype: 'home', iconCls: 'home'},		// Home icon
+			{ xclass: 'HSFapp.view.session.Card' },	// Agenda/Conference schedule
+			{ xclass: 'HSFapp.view.speaker.Card' },	// Speakers (potentially generalize to "people" --> speakers + attendees")
+			{ xclass: 'HSFapp.view.Tweets'   },		// Twitter feed / social network
+			{ xtype: 'mediapanel', iconCls: 'photos2'}, // Media (photo or video)
+			{ xclass: 'HSFapp.view.Location' },		// Maps / floor plans / directions
+			{ xclass: 'HSFapp.view.about.Card' },	// Info / About tab
+			{ xtype: 'Resources', iconCls: 'doc_drawer' }	// Documents+Resources
 		]
+
 	}
 });
