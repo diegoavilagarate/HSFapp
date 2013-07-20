@@ -93,7 +93,7 @@ Fonts:
 NOTE: The HSF logo uses the font Trajan Pro, but we are not using that font outside of the logo.
 */
 
-
+/*
 html,
 body {
     position: relative;
@@ -1325,4 +1325,4 @@ body.x-desktop { overflow: hidden }
     91.65% { -ms-transform: rotate(300deg) }
     91.66% { -ms-transform: rotate(330deg) }
     100% { -ms-transform: rotate(330deg) }
-}
+}*/
