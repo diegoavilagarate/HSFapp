@@ -120,7 +120,7 @@
                     "path": "touch/src/data/proxy/"
                 },
                 {
-                    "clsName": "Oreilly.util.Proxy",
+                    "clsName": "HSFapp.util.Proxy",
                     "name": "Proxy.js",
                     "path": "app/util/"
                 },
@@ -775,47 +775,47 @@
                     "path": "touch/src/app/"
                 },
                 {
-                    "clsName": "Oreilly.view.session.Detail",
+                    "clsName": "HSFapp.view.session.Detail",
                     "name": "Detail.js",
                     "path": "app/view/session/"
                 },
                 {
-                    "clsName": "Oreilly.view.session.Info",
+                    "clsName": "HSFapp.view.session.Info",
                     "name": "Info.js",
                     "path": "app/view/session/"
                 },
                 {
-                    "clsName": "Oreilly.view.speaker.Detail",
+                    "clsName": "HSFapp.view.speaker.Detail",
                     "name": "Detail.js",
                     "path": "app/view/speaker/"
                 },
                 {
-                    "clsName": "Oreilly.view.speaker.Info",
+                    "clsName": "HSFapp.view.speaker.Info",
                     "name": "Info.js",
                     "path": "app/view/speaker/"
                 },
                 {
-                    "clsName": "Oreilly.view.about.HtmlPage",
+                    "clsName": "HSFapp.view.about.HtmlPage",
                     "name": "HtmlPage.js",
                     "path": "app/view/about/"
                 },
                 {
-                    "clsName": "Oreilly.controller.Sessions",
+                    "clsName": "HSFapp.controller.Sessions",
                     "name": "Sessions.js",
                     "path": "app/controller/"
                 },
                 {
-                    "clsName": "Oreilly.controller.Speakers",
+                    "clsName": "HSFapp.controller.Speakers",
                     "name": "Speakers.js",
                     "path": "app/controller/"
                 },
                 {
-                    "clsName": "Oreilly.controller.Tweets",
+                    "clsName": "HSFapp.controller.Tweets",
                     "name": "Tweets.js",
                     "path": "app/controller/"
                 },
                 {
-                    "clsName": "Oreilly.controller.About",
+                    "clsName": "HSFapp.controller.About",
                     "name": "About.js",
                     "path": "app/controller/"
                 },
@@ -970,7 +970,7 @@
                     "path": "touch/src/"
                 },
                 {
-                    "clsName": "Oreilly.view.Location",
+                    "clsName": "HSFapp.view.Location",
                     "name": "Location.js",
                     "path": "app/view/"
                 },
@@ -1040,12 +1040,12 @@
                     "path": "touch/src/data/"
                 },
                 {
-                    "clsName": "Oreilly.model.Session",
+                    "clsName": "HSFapp.model.Session",
                     "name": "Session.js",
                     "path": "app/model/"
                 },
                 {
-                    "clsName": "Oreilly.model.Speaker",
+                    "clsName": "HSFapp.model.Speaker",
                     "name": "Speaker.js",
                     "path": "app/model/"
                 },
@@ -1055,32 +1055,32 @@
                     "path": "touch/src/data/"
                 },
                 {
-                    "clsName": "Oreilly.store.Sessions",
+                    "clsName": "HSFapp.store.Sessions",
                     "name": "Sessions.js",
                     "path": "app/store/"
                 },
                 {
-                    "clsName": "Oreilly.store.SpeakerSessions",
+                    "clsName": "HSFapp.store.SpeakerSessions",
                     "name": "SpeakerSessions.js",
                     "path": "app/store/"
                 },
                 {
-                    "clsName": "Oreilly.store.Speakers",
+                    "clsName": "HSFapp.store.Speakers",
                     "name": "Speakers.js",
                     "path": "app/store/"
                 },
                 {
-                    "clsName": "Oreilly.store.SessionSpeakers",
+                    "clsName": "HSFapp.store.SessionSpeakers",
                     "name": "SessionSpeakers.js",
                     "path": "app/store/"
                 },
                 {
-                    "clsName": "Oreilly.store.Tweets",
+                    "clsName": "HSFapp.store.Tweets",
                     "name": "Tweets.js",
                     "path": "app/store/"
                 },
                 {
-                    "clsName": "Oreilly.store.Videos",
+                    "clsName": "HSFapp.store.Videos",
                     "name": "Videos.js",
                     "path": "app/store/"
                 },
@@ -1100,7 +1100,7 @@
                     "path": "touch/src/tab/"
                 },
                 {
-                    "clsName": "Oreilly.view.Main",
+                    "clsName": "HSFapp.view.Main",
                     "name": "Main.js",
                     "path": "app/view/"
                 },
@@ -1120,17 +1120,17 @@
                     "path": "touch/src/navigation/"
                 },
                 {
-                    "clsName": "Oreilly.view.session.Card",
+                    "clsName": "HSFapp.view.session.Card",
                     "name": "Card.js",
                     "path": "app/view/session/"
                 },
                 {
-                    "clsName": "Oreilly.view.speaker.Card",
+                    "clsName": "HSFapp.view.speaker.Card",
                     "name": "Card.js",
                     "path": "app/view/speaker/"
                 },
                 {
-                    "clsName": "Oreilly.view.about.Card",
+                    "clsName": "HSFapp.view.about.Card",
                     "name": "Card.js",
                     "path": "app/view/about/"
                 },
@@ -1150,27 +1150,27 @@
                     "path": "touch/src/dataview/"
                 },
                 {
-                    "clsName": "Oreilly.view.session.List",
+                    "clsName": "HSFapp.view.session.List",
                     "name": "List.js",
                     "path": "app/view/session/"
                 },
                 {
-                    "clsName": "Oreilly.view.speaker.List",
+                    "clsName": "HSFapp.view.speaker.List",
                     "name": "List.js",
                     "path": "app/view/speaker/"
                 },
                 {
-                    "clsName": "Oreilly.view.Tweets",
+                    "clsName": "HSFapp.view.Tweets",
                     "name": "Tweets.js",
                     "path": "app/view/"
                 },
                 {
-                    "clsName": "Oreilly.view.about.List",
+                    "clsName": "HSFapp.view.about.List",
                     "name": "List.js",
                     "path": "app/view/about/"
                 },
                 {
-                    "clsName": "Oreilly.view.about.VideoList",
+                    "clsName": "HSFapp.view.about.VideoList",
                     "name": "VideoList.js",
                     "path": "app/view/about/"
                 },

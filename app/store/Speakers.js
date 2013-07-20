@@ -1,8 +1,8 @@
-Ext.define('Oreilly.store.Speakers', {
+Ext.define('HSFapp.store.Speakers', {
 	extend: 'Ext.data.Store',
 
     config: {
-        model: 'Oreilly.model.Speaker',
+        model: 'HSFapp.model.Speaker',
 
         grouper: {
         	groupFn: function(record) {

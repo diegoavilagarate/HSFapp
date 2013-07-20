@@ -1,5 +1,5 @@
 {
-    "name": "Oreilly",
+    "name": "HSFapp",
     "js": [
         {
             "path": "../../sencha-touch-all-debug.js"
@@ -36,10 +36,10 @@
     ],
     "archivePath": "archive",
     "buildPaths": {
-        "testing": "../../deploy/testing/oreilly",
-        "production": "../../deploy/production/oreilly",
-        "package": "../../deploy/package/oreilly",
-        "native": "../../deploy/native/oreilly"
+        "testing": "../../deploy/testing/HSFapp",
+        "production": "../../deploy/production/HSFapp",
+        "package": "../../deploy/package/HSFapp",
+        "native": "../../deploy/native/HSFapp"
     },
     "buildOptions": {
         "product": "touch",

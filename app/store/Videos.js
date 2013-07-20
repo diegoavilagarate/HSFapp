@@ -1,4 +1,4 @@
-Ext.define('Oreilly.store.Videos', {
+Ext.define('HSFapp.store.Videos', {
     extend: 'Ext.data.Store',
 
     config: {

@@ -1,11 +1,11 @@
-Ext.define('Oreilly.store.Sessions', {
+Ext.define('HSFapp.store.Sessions', {
 	extend: 'Ext.data.Store',
 
 	requires: 'Ext.DateExtras',
 
     config: {
 
-        model: 'Oreilly.model.Session',
+        model: 'HSFapp.model.Session',
 
         grouper: {
             sortProperty: 'time',

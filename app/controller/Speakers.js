@@ -1,4 +1,4 @@
-Ext.define('Oreilly.controller.Speakers', {
+Ext.define('HSFapp.controller.Speakers', {
 	extend: 'Ext.app.Controller',
 
 	config: {

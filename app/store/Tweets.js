@@ -1,4 +1,4 @@
-Ext.define('Oreilly.store.Tweets', {
+Ext.define('HSFapp.store.Tweets', {
     extend: 'Ext.data.Store',
 
     config: {

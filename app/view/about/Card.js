@@ -1,4 +1,4 @@
-Ext.define('Oreilly.view.about.Card', {
+Ext.define('HSFapp.view.about.Card', {
 
 	extend: 'Ext.NavigationView',
 	xtype: 'aboutContainer',

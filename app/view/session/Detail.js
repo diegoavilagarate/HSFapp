@@ -1,4 +1,4 @@
-Ext.define('Oreilly.view.session.Detail', {
+Ext.define('HSFapp.view.session.Detail', {
 
 	extend: 'Ext.Container',
 	xtype: 'session',

@@ -1,4 +1,4 @@
-Ext.define('Oreilly.view.Location', {
+Ext.define('HSFapp.view.Location', {
 
 	extend: 'Ext.Container',
 	requires: 'Ext.BingMap',
@@ -22,7 +22,7 @@ Ext.define('Oreilly.view.Location', {
 	},
 
 	initialize: function() {
-		var position = new Microsoft.Maps.Location(Oreilly.app.mapCenter[0], Oreilly.app.mapCenter[1]),
+		var position = new Microsoft.Maps.Location(HSFapp.app.mapCenter[0], HSFapp.app.mapCenter[1]),
 			map;
 
 		this.callParent();
@@ -30,7 +30,7 @@ Ext.define('Oreilly.view.Location', {
         var mapCallback = function(){
             map = map.getMap();
             var infobox = new Microsoft.Maps.Infobox(position, {
-                description: Oreilly.app.mapText, visible: true, offset: new Microsoft.Maps.Point(0, 10), height: 100,width:180
+                description: HSFapp.app.mapText, visible: true, offset: new Microsoft.Maps.Point(0, 10), height: 100,width:180
             });
             map.entities.clear();
             var pushpin= new Microsoft.Maps.Pushpin(map.getCenter(), null);

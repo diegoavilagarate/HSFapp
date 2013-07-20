@@ -1,4 +1,4 @@
-Ext.define('Oreilly.model.Session', {
+Ext.define('HSFapp.model.Session', {
 	extend: 'Ext.data.Model',
 
 	config: {

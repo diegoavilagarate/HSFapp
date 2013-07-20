@@ -1,4 +1,4 @@
-Ext.define('Oreilly.controller.Sessions', {
+Ext.define('HSFapp.controller.Sessions', {
 	extend: 'Ext.app.Controller',
 
 	config: {

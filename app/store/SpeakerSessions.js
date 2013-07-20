@@ -1,8 +1,8 @@
-Ext.define('Oreilly.store.SpeakerSessions', {
+Ext.define('HSFapp.store.SpeakerSessions', {
 	extend: 'Ext.data.Store',
 
     config: {
-        model: 'Oreilly.model.Session',
+        model: 'HSFapp.model.Session',
 
         sorters: [
             {

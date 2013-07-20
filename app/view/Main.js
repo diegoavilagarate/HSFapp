@@ -1,4 +1,4 @@
-Ext.define('Oreilly.view.Main', {
+Ext.define('HSFapp.view.Main', {
 
 	extend: 'Ext.tab.Panel',
 	xtype: 'main',
@@ -11,11 +11,11 @@ Ext.define('Oreilly.view.Main', {
 		},
 
 		items: [
-			{ xclass: 'Oreilly.view.session.Card' },
-			{ xclass: 'Oreilly.view.speaker.Card' },
-			{ xclass: 'Oreilly.view.Tweets'   },
-			{ xclass: 'Oreilly.view.Location' },
-			{ xclass: 'Oreilly.view.about.Card'    }
+			{ xclass: 'HSFapp.view.session.Card' },
+			{ xclass: 'HSFapp.view.speaker.Card' },
+			{ xclass: 'HSFapp.view.Tweets'   },
+			{ xclass: 'HSFapp.view.Location' },
+			{ xclass: 'HSFapp.view.about.Card'    }
 		]
 	}
 });

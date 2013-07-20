@@ -1,4 +1,4 @@
-Ext.define('Oreilly.view.tab.Location', {
+Ext.define('HSFapp.view.tab.Location', {
 
 	extend: 'Ext.Container',
 	xtype: 'location',
@@ -21,8 +21,8 @@ Ext.define('Oreilly.view.tab.Location', {
 
 	initialize: function() {
 
-		var position = new google.maps.LatLng(Oreilly.app.mapCenter[0], Oreilly.app.mapCenter[1]),
-			infoWindow = new google.maps.InfoWindow({ content: Oreilly.app.mapText }),
+		var position = new google.maps.LatLng(HSFapp.app.mapCenter[0], HSFapp.app.mapCenter[1]),
+			infoWindow = new google.maps.InfoWindow({ content: HSFapp.app.mapText }),
 			map, marker;
 
 		this.callParent();

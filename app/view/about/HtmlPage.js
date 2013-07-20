@@ -1,4 +1,4 @@
-Ext.define('Oreilly.view.about.HtmlPage', {
+Ext.define('HSFapp.view.about.HtmlPage', {
 
 	extend: 'Ext.Container',
 	xtype: 'htmlPage',
