@@ -10,10 +10,10 @@ Ext.require('Oreilly.util.Proxy');
 Ext.application({
     // Change the values below to re-configure the app for a different conference.
 
-    title:   'Web 2.0 Summit 2010',
+    title:   'HSF Conference',
     dataUrl: 'http://en.oreilly.com/web2010/public/mobile_app/all',
 
-    twitterSearch: '#w2s',
+    twitterSearch: '#HSF2013',
 
     mapCenter: [37.788539, -122.401643],
     mapText: 'The Palace Hotel<br /><small>2 New Montgomery Street<br />San Francisco, CA 94105<br />(415) 512-1111</small>',
@@ -38,7 +38,7 @@ Ext.application({
             title: 'Videos',
             xtype: 'videoList',
             playlistId: '2737D508F656CCF8',
-            hideText: 'Web 2.0 Summit 2010: '
+            hideText: 'HSF Conference '
         }
     ],
 

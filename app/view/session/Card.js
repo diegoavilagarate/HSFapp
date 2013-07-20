@@ -5,7 +5,7 @@ Ext.define('Oreilly.view.session.Card', {
 
     config: {
 
-        title: 'Sessions',
+        title: 'Agenda',
         iconCls: 'time',
 
         autoDestroy: false,
