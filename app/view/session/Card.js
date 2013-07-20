@@ -24,7 +24,7 @@ Ext.define('HSFapp.view.session.Card', {
     }
 });
 
-
+/*
 //
 // -------------------- DETAIL -------------------- //
 //
@@ -179,6 +179,6 @@ Ext.define('HSFapp.view.session.List', {
             segmentedButton.add(day);
         });
     }
-});
+});*/
 
 
